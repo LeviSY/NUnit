@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Levi\source\repos\NUnit\NUnitTests\bin\Debug\NUnitTests.dll" total="4" errors="0" failures="2" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2020-07-14" time="20:41:16">
+  <environment nunit-version="2.7.1.0" clr-version="2.0.50727.9151" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Levi\source\repos\NUnit\NUnitTests\bin\Debug" machine-name="DESKTOP-RGBBA97" user="Levi" user-domain="DESKTOP-RGBBA97" />
+  <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
+  <test-suite type="Assembly" name="C:\Users\Levi\source\repos\NUnit\NUnitTests\bin\Debug\NUnitTests.dll" executed="True" result="Failure" success="False" time="0.124" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="NUnitTests" executed="True" result="Failure" success="False" time="0.116" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="Class1" executed="True" result="Failure" success="False" time="0.115" asserts="0">
+            <results>
+              <test-case name="NUnitTests.Class1.Test1" executed="True" result="Failure" success="False" time="0.044" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: 24.0d
+  But was:  10.0d
+]]></message>
+                  <stack-trace><![CDATA[в NUnitTests.Class1.Test1() в C:\Users\Levi\source\repos\NUnit\NUnitTests\Class1.cs:строка 19
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="NUnitTests.Class1.Test2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="NUnitTests.Class1.Test3" executed="True" result="Failure" success="False" time="0.001" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: 10.0d
+  But was:  24.0d
+]]></message>
+                  <stack-trace><![CDATA[в NUnitTests.Class1.Test3() в C:\Users\Levi\source\repos\NUnit\NUnitTests\Class1.cs:строка 31
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="NUnitTests.Class1.Test4" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
